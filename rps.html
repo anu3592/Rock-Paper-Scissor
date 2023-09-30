@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <style>
+        #field{
+            border: 3px solid black;
+            border-radius: 30px;
+            text-align: center;
+            width: 700px;
+            margin-left: 250px;
+            padding: 30px;
+            font-style: italic;
+            background-color: darksalmon;
+            color: azure;
+        }
+        #result{
+            font-size: 40px;
+        }
+        .btn{
+            margin:10px;
+            width: 80px;
+            height: 40px;
+            border-radius: 5px;
+            font-family: cursive;
+            background-color:fuchsia;
+            color: white;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="field">
+        <h1 id="playerText">PlayerText:</h1><br>
+        <h1 id="computerText">ComputerText:</h1><b></b>
+        <label id="result"></label><br>
+        <button type= "button" id= "rock" class="btn" value="Rock">Rock</button>
+        <button type="button" id="scissor" class="btn"value="Scissor">Scissor</button>
+        <button type="button" id="paper" class="btn"value="Paper">Paper</button><br>
+        <button type="button" class="btn"id="reset">Reset</button>
+    </div>
+    <script src="rockPaperScissor.js"></script>
+</body>
+</html>
